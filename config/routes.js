@@ -36,7 +36,8 @@ module.exports.routes = {
     view: 'static/index'
   },
   '/user/sign_in': {
-    controller: "UserController", action:  "new"
+    controller: "UserController", 
+    action: "new"
   }
   /***************************************************************************
   *                                                                          *
